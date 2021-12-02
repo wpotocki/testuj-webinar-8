@@ -1,6 +1,10 @@
 package pl.testuj;
 
 import pl.testuj.oop.Animal;
+import pl.testuj.oop.university.Exam;
+import pl.testuj.oop.university.Person;
+import pl.testuj.oop.university.Profesor;
+import pl.testuj.oop.university.Student;
 
 public class Main {
 
@@ -28,5 +32,27 @@ public class Main {
 
         Animal dog2 = new Animal(cat);
         System.out.println(dog2.getName());
+
+        System.out.println("---------");
+
+        Person person = new Person();
+        person.setAge(30);
+        person.introducte();
+
+        System.out.println("-------");
+
+        Student student = new Student();
+        student.setDepartment("Informatyka");
+        student.setAge(22);
+        student.introducte();
+
+//        Profesor profesor = new Profesor();
+//        profesor.setGrade("wzorowa");
+//        profesor.setAge(55);
+//        profesor.introducte();
+//
+//        Exam exam = new Exam();
+//        exam.setDepartment("Filozofia");
+//        exam.setName("Egzamin wstępny");
     }
 }
