@@ -9,6 +9,7 @@ import pl.testuj.oop.university.Student;
 public class Main {
 
     public static void main(String[] args) {
+        String y = Person.XXX;
         // typ_zmiennej nazwa_zmiennej = wartość;
         // typ_obiektu nazwa_obiektu = new Typ_Obiektu();
         Animal animal = new Animal();

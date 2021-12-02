@@ -3,6 +3,9 @@ package pl.testuj.oop.university;
 public class Person {
     private String name;
     private int age;
+    // final czyli nie mogę nadpisać wartości dla pola
+    // static mogę odwołać się bez tworzenia obiektu klasy czyli Person.XXX
+    public static final String XXX = "Wojtek";
 
     public Person() {
         System.out.println("Create Person");
